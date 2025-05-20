@@ -128,6 +128,7 @@ function reseter(){
   //document.querySelector('.timers').style.display="flex"
   //document.querySelector('.time-text').style.display="block"
   selectTime.textContent=``
+timerEl.textContent='Time:0';
 }
 
 let startTime;
